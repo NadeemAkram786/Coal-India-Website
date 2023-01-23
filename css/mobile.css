@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: 80px;
+    }
+
+    nav ul {
+        padding-bottom: 0.7rem;
+    }
+
+    .icons {
+        flex-direction: column;
+    }
+    .people {
+        grid-template-columns: 1fr;
+    }
+
+    .business .business-image {
+        grid-template-columns: repeat(2, auto);
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+    }
+}

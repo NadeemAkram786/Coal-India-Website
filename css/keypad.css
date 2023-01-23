@@ -1,0 +1,12 @@
+@media (max-width: 400px) {
+    nav {
+        height: 76px;
+    }
+    .header nav h1 {
+        font-size: 1.8rem;
+    }
+
+    .business .business-image {
+        grid-template-columns: 1fr;
+    }
+}
